@@ -1,0 +1,38 @@
+.nav {
+    grid-area: nav;
+    background-color: rgba(130, 36, 227, 0.8);
+    color: #fff;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 5px;
+    height: 195px;
+}
+
+li {
+    /*margin-bottom: 10px;*/
+    line-height: 25px;
+    padding: 5px 10px;
+}
+
+li:last-child {
+    margin-top: 20px;
+}
+
+.nav__item {
+    transition: ease-in-out .3s;
+}
+
+.nav__item a {
+    display: block;
+}
+
+.nav__item a.active {
+    color: black;
+    transition: ease .3s;
+    font-size: 18px;
+}
+
+.nav__item:hover {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.18);
+}

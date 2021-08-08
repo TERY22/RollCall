@@ -1,0 +1,24 @@
+.chats {
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+}
+
+.chats__items, .messages {
+    padding: 10px;
+}
+
+.chats__items .active {
+    color: black;
+}
+
+.chats__item {
+    cursor: pointer;
+}
+
+.messages {
+
+}
+
+.message {
+
+}
